@@ -3,18 +3,12 @@ const {app} = electron
 const {BrowserWindow} = require('electron')
 
 
+
 app.on('ready', function(){
-  let win = new BrowserWindow({width: 800, height: 600})
+  let win = new BrowserWindow({width: 1280, height: 800})
   win.on('closed', () => {
     win = null
   })
-
-  // Load a remote URL
-  win.loadURL('https://github.com')
-
   // Or load a local HTML file
-  win.loadURL(`file://${__dirname}/app/index.html`)
+  win.loadURL(`file://${__dirname}/index.html`)
 })
-
-// Or use `remote` from the renderer process.
-// const {BrowserWindow} = require('electron').remote
