@@ -4,7 +4,7 @@
   "description": "A Simple implementation of electron",
   "main": "app.js",
   "scripts": {
-    "test": "electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Shivang-Bhandari/DemoElectronApp/issues"
   },
-  "homepage": "https://github.com/Shivang-Bhandari/DemoElectronApp#readme"
+  "homepage": "https://github.com/Shivang-Bhandari/DemoElectronApp#readme",
+  "devDependencies": {
+    "electron": "^1.6.10"
+  }
 }
