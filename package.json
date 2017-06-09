@@ -1,0 +1,19 @@
+{
+  "name": "demoelectronapp",
+  "version": "1.0.0",
+  "description": "A Simple implementation of electron",
+  "main": "app.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivang-Bhandari/DemoElectronApp.git"
+  },
+  "author": "Shivang Bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivang-Bhandari/DemoElectronApp/issues"
+  },
+  "homepage": "https://github.com/Shivang-Bhandari/DemoElectronApp#readme"
+}
